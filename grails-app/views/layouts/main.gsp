@@ -11,18 +11,41 @@
 	    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
 	    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">
 
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
-
-		<g:layoutHead/>
-		<r:layoutResources />
-		<less:stylesheet name="your_stylesheet" />
-    	<less:scripts />
+  		<g:layoutHead/>
+  		<r:layoutResources />
+      <less:stylesheet name="main" />
+      <less:scripts />
 	</head>
 	<body>
 
+  <header>
+    <div class="container">
+      <div class="row-fluid">
+      	<h1>Skim Links Admin</h1>
+      </div>
+    </div>
+  </header>
 
-		<g:layoutBody/>
+  <section class="main">
+    <div class="container">
+      <div class="row-fluid">
+	    <div class="span12">
+	    	<g:layoutBody/>
+	    </div>
+      </div>
+    </div>
+  </section>
+		
+
+  <footer>
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span12">
+          Beebot 2013
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 		<g:javascript library="application"/>
