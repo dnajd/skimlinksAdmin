@@ -21,12 +21,14 @@
   <header>
     <div class="container">
       <div class="row-fluid">
-      	<h1>Skim Links Admin</h1>
+      <div class="span12">
+      	 <h1>Skim Links Admin</h1>
+      </div>
       </div>
     </div>
   </header>
 
-  <section class="main">
+  <section id="main">
     <div class="container">
       <div class="row-fluid">
 	    <div class="span12">
@@ -41,7 +43,7 @@
     <div class="container">
       <div class="row-fluid">
         <div class="span12">
-          Beebot 2013
+          
         </div>
       </div>
     </div>
